@@ -19,7 +19,6 @@ services:
   - type: web
     name: vidya-samay-frontend
     env: static
-    region: singapore
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: frontend/dist
     envVars:
